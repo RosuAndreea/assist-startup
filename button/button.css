@@ -1,0 +1,49 @@
+.btn-contact ,.btn-read-more{
+	text-transform: uppercase;
+}
+.btn-contact, .btn-fb ,.btn-our-project, .btn-read-more,.btn-tech {
+	border-radius: 4px;
+	width:auto;
+	height: auto;
+	font-weight:700;
+}
+
+.btn-contact{
+	color:#363A9B;
+	background: #FFF;
+	font-size: 16px;
+	padding:19px 55px;
+}
+.btn-fb{
+	color:#EBECF3;
+	background: #4E20AD;
+	font-size:16px;
+	padding:11px 17px;
+	
+}
+.btn-our-project{
+	color:#FFF;
+	background: #3549A0;
+	font-size:15.5px;
+	padding:11px 28px;
+}
+.btn-tech{
+	color:#767676;
+	background: #FFF;
+	font-size: 15px;
+	padding:11px 25px;
+}
+.btn-read-more{
+	color:#FFF7F3;
+	background:#F36700 ;
+	font-size: 15px;
+	padding:13px 31px;
+}
+.btn-work-together{
+	border-radius: 20px;
+	background: #4197E6;
+	color:#FFF;
+	padding: 11px 17px;
+	border-color: #FFF;
+	font-size: 15px;
+}
