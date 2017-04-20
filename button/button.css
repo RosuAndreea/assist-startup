@@ -13,6 +13,7 @@
 	background: #FFF;
 	font-size: 16px;
 	padding:19px 55px;
+	margin: 20px 0 44px 552px;
 }
 .btn-fb{
 	color:#EBECF3;
@@ -26,6 +27,7 @@
 	background: #3549A0;
 	font-size:15.5px;
 	padding:11px 28px;
+
 }
 .btn-tech{
 	color:#767676;
@@ -38,12 +40,18 @@
 	background:#F36700 ;
 	font-size: 15px;
 	padding:13px 31px;
+	float:left;
+	margin-top: 20px;
+	border-radius: 6px;
 }
 .btn-work-together{
 	border-radius: 20px;
-	background: #4197E6;
+	background: rgba(9, 158, 218, 0.11);
 	color:#FFF;
 	padding: 11px 17px;
-	border-color: #FFF;
+	border:1px solid #FFF;
 	font-size: 15px;
+	float: right;
+    margin-right: 68px;
+    margin-top: 64px;
 }

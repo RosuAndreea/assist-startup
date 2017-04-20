@@ -1,0 +1,12 @@
+.img-horizontally{
+	width: 30%;
+	display: block;
+	float: left;
+	margin:0 auto;
+}
+.img-vertical{
+	width: 20%;
+	display: block;
+	float: right;
+	margin:0 auto;
+}

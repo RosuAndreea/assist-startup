@@ -1,0 +1,13 @@
+.landing{
+	background-image: url("../background.jpg");
+	background-size: cover;
+	height: 600px;
+}
+.header-landing{
+	display: inline;
+	text-align: center;
+}
+.text-landing{
+	text-align: center;
+    padding-top: 100px;
+}

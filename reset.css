@@ -1,0 +1,114 @@
+body{
+	margin: 0;
+	font-family: 'Arial',sans-serif;
+}
+.container{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.header-layout{
+	background-color: rgba(21, 167, 226, 0.7);
+	height: 100%;
+}
+.footer-down{
+	width: 100%;
+	float: left;
+	padding-top: 32px;
+}
+
+/* Entrepreneurs page text*/
+#entrepreneurs-text{
+	width: 58%;
+    margin:0 auto; 
+    padding-top: 50px;
+    color: #363636;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.comments-entrepreneurs{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 50px;
+	border-top: 2px solid #DDD;
+}
+#text-detail{
+	font-size: 21px;
+    color: #363636;
+    margin-left: 195px;
+    width: 66%;
+    text-align: center;
+    font-weight: 600;
+}
+#text-info{
+	text-align: center;
+	color: #666;
+	padding-bottom: 42px;
+}
+
+/*#Hack page*/
+.thumbnail-hack{
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.hack-categories{
+	width: 100%;
+	display: inline-block;
+	padding-top: 20px;
+}
+.img-hack-right{
+	width: 52.5%;
+    float: left;
+}
+.hack-right{
+	width: 40%;
+    float: right;
+}
+.hack-left{
+	width: 40%;
+    float: left;
+    padding-left: 45px;
+}
+.img-hack-left{
+	width: 52.5%;
+    float: right;
+}
+
+/*Home page*/
+#uppercase-text{
+	text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #A9C0E2;
+    font-weight: 700;
+    margin-top: 140px;
+    height: 0px;
+}
+.home-container{
+	width: 100%;
+	padding-top: 30px;
+}
+.home-research{
+	margin:0 auto;
+	width: 100%;
+	background-color: #E58C00;
+}
+.home-img-left{
+	width: 40%;
+	float: left;
+}
+.home-logo-right{
+	width: 40%;
+	float: right;
+	text-align: center;
+	margin: 0 auto;
+}
+/* Our projects page*/
+.container-projects{
+ width: 90%;
+ margin:0 auto;
+ height: 100%;
+
+}

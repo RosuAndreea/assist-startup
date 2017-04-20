@@ -1,0 +1,44 @@
+.our-project{
+	width: 100%;
+	margin:0 auto;
+	border-bottom: 1px solid #DDD;
+	padding-top: 100px;
+	min-height: 370px;
+}
+#img-projects-right{
+	border-radius: 2px;
+
+
+}
+#img-projects-left{
+	border-radius: 2px;
+
+}
+.project-detail-left{
+	width: 50%;
+	float: left;
+	padding-top: 30px;
+}
+.project-detail-right{
+	width: 50%;
+	float: right;
+	padding-top: 30px;
+}
+.title-project{
+	font-size: 37px;
+    font-weight: 800;
+    color: #363636;
+}
+.text-project{
+ 	font-size: 20px;
+    color: #363635;
+    width: 90%;
+ }
+ .img-proj-right{
+ 	width:50%;
+ 	float:right;
+ }
+ .img-proj-left{
+ 	width:50%;
+ 	float:left;
+ }
