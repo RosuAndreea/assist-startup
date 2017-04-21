@@ -1,0 +1,22 @@
+.thumbnail-old-events{
+	width: 93%;
+    margin: 0 auto;
+    min-height: 580px;
+    padding-top: 50px;
+    border-bottom: 1px solid #DDD;
+}
+.old-events{
+	width: 30%;
+    padding-right: 22px;
+    padding-bottom: 30px;
+    float: left;
+    padding-left: 18px;
+}
+#img-old-event{
+	border-radius: 4px;
+}
+#text-old-event{
+	font-size: 20px;
+	font-weight: 600;
+	color: #363636;
+}

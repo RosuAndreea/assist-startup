@@ -1,0 +1,35 @@
+.project{
+	width: 94%;
+    margin: 0 auto;
+    min-height: 580px;
+    padding-top: 50px;
+
+}
+.thumbnail-project{
+	width: 30%;
+    padding-right: 22px;
+    padding-bottom: 30px;
+    float: left;
+    padding-left: 18px;
+}
+#img-project{
+	border-radius: 5px;
+}
+#project-title{
+ 	font-weight: 700;
+ 	font-size: 17px;
+}
+#project-text{
+	font-size: 15px;
+	color: #5A5A5A;
+	width: 350px;
+}
+.buttons-group{
+    width: 100%;
+    margin: 0 auto;
+    display: inline;
+}
+
+.project-buttons {
+    text-align: center;
+}

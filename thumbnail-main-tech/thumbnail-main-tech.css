@@ -1,0 +1,34 @@
+.thumbnail-main-tech{
+	width: 90%;
+    background-color: #FFF;
+    border-radius: 4px;
+    min-height: 350px;
+    margin: 0 auto;
+}
+.text-main-tech{
+	width: 40%;
+    float: left;
+    padding-top: 190px;
+
+}
+.img-main-tech{
+	width: 60%;
+	float: right;
+}
+#title-tech{
+	font-size: 36px;
+	font-weight: 500;
+	width: 75%;
+	margin: 0 auto;
+
+}
+#text-tech{
+	font-size: 17px;
+    padding-left: 60px;
+
+}
+#img-tech{
+	border-radius: 4px;
+	float: right;
+	cursor: pointer;
+}
