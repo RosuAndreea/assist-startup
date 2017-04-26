@@ -1,8 +1,7 @@
 .project{
 	width: 94%;
     margin: 0 auto;
-    min-height: 580px;
-    padding-top: 50px;
+    min-height: 500px;
 
 }
 .thumbnail-project{
@@ -32,4 +31,8 @@
 
 .project-buttons {
     text-align: center;
+}
+.thumbnail-project-home{
+width:100%;
+min-height: 600px;
 }

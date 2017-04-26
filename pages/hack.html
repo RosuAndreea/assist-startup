@@ -3,7 +3,7 @@
 <head>
 	<title>Hack</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="../font/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../normalize.css">
 	<link rel="stylesheet" type="text/css" href="../reset.css">
 	<link rel="stylesheet" type="text/css" href="../button/button.css">
@@ -32,12 +32,17 @@
 	
 <body>
 	<div class="container">	
-		<header>
+		<header id="home">
 			<div class="landing">
 				<div class="header-layout">
 					<div class="header-landing">
-						<img class="logo" src="http://placehold.it/150X65">
-						<button class="btn-work-together">Let's work together</button>
+						<div class="nav-left">
+							<img class="logo" src="http://placehold.it/150X65">
+						</div>
+						<div id="show-menu" class="nav-right">	
+							<i class="fa fa-bars" aria-hidden="true"></i>
+							<button class="btn-work-together">Let's work together</button>
+						</div>
 					</div>
 					<div class="text-landing">
 						<p class="hero-title">ASSIST Start Hackathons</p> 
@@ -46,6 +51,41 @@
 				</div>
 			</div>	
 		</header>
+
+		<div class="menu-container hidden" id="menu">
+			<div class="menu-overlay">
+			</div>				
+			<div class="side-menu">
+				<!-- ul.menu>li.menu-item*6 -->
+
+				<div class="menu-header">
+					<i id="hide-menu" class="fa fa-bars" aria-hidden="true"></i>	
+					<span id="menu-title">Menu</span>
+					<button class="btn-work-together">Let's work together</button>			
+				</div>
+				<ul class="menu">
+					<li class="menu-item">
+					<a href="home.html">Home</a></li>
+					<li class="menu-item active">Hackathons</li>
+					<li class="menu-item">
+						<a href="tech.html">Tech CAFE</a>
+					</li>
+					<li class="menu-item">
+						<a href="entrepreneurs.html">For entrepreneurs</a>
+					</li>
+					<li class="menu-item">
+						<a href="projects.html">Our projects</a>
+					</li>
+					<li class="menu-item">
+						<a href="#contacts">Contacts</a>
+					</li>
+				</ul>
+				<ul class="menu-social">
+					<li class="menu-item grayed">Facebook</li>
+					<li class="menu-item grayed">Instagram</li>
+				</ul>
+			</div>
+		</div>
 
 		<div class="thumbnail-hack">
 			<div class="hack-categories">
@@ -101,46 +141,49 @@
 			<p id="subtitle-work">Contact us today to get started on your project.<p>
 			<button class="btn-contact">Contact Us</button>
 		</div>
-	</div>	
+
+
+		<footer id="contacts">
+			<div>
+				<section class="footer">
+					<img id="footer-img" src="https://placehold.it/150x100">
+				</section>
+				<section class="footer">
+					<h3 class="footer-header">ASSIST START</h3>
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="#home">Hackathons</a></li>
+						<li><a href="tech.html">Innovative Talks</a></li>
+						<li><a href="entrepreneurs.html">For Entrepreneurs</a></li>
+						<li> <a href="projects.html">Our projects</a></li>
+					</ul>
+				</section>
+				<section class="footer">
+					<h3 class="footer-header">Contacts</h3>
+					<ul>
+						<li>hello@assist.ro</li>
+						<li><a href="https://www.facebook.com/assist.software.development/?fref=ts">Facebook</a></li>
+						<li><a href="https://www.instagram.com/explore/locations/966167671/assist-software/?hl=ro">Instagram</a></li>
+					</ul>
+				</section>
+				<section class="footer">
+					<h3 class="footer-header">Share this page</h3>
+				</section>
+			</div>
+
+			<div class="footer-down">
+				<div class="footer-right">
+					<div class="footer-right-left">
+						<p> ASSIST Software2014. Made with love in Romania</p>
+					</div>
+					<div class="footer-right-right">
+						<p class="left">Private Policy &nbsp; &nbsp; Term of Use</p>
+					</div>
+				</div>	
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="menu-script.js"></script>	
 </body>
-
-<footer>
-	<div>
-		<section class="footer">
-			<img id="footer-img" src="https://placehold.it/150x100">
-		</section>
-		<section class="footer">
-			<h3 class="footer-header">ASSIST START</h3>
-			<ul>
-				<li>Home</li>
-				<li>Hackathons</li>
-				<li>Innovative Talks</li>
-				<li>For Entrepreneurs</li>
-				<li>Our projects</li>
-			</ul>
-		</section>
-		<section class="footer">
-			<h3 class="footer-header">Contacts</h3>
-			<ul>
-				<li>hello@assist.ro</li>
-				<li>Facebook</li>
-				<li>Instagram</li>
-			</ul>
-		</section>
-		<section class="footer">
-			<h3 class="footer-header">Share this page</h3>
-		</section>
-	</div>
-
-	<div class="footer-down">
-		<div class="footer-right">
-			<div class="footer-right-left">
-				<p> ASSIST Software2014. Made with love in Romania</p>
-			</div>
-			<div class="footer-right-right">
-				<p class="left">Private Policy &nbsp; &nbsp; Term of Use</p>
-			</div>
-		</div>	
-	</div>
-
 </html>

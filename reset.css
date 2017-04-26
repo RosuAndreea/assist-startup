@@ -16,6 +16,12 @@ body{
 	float: left;
 	padding-top: 32px;
 }
+footer{
+  min-height: 255px;
+}
+.hidden{
+    display: none;
+}
 
 /* Entrepreneurs page text*/
 #entrepreneurs-text{
@@ -105,6 +111,24 @@ body{
 	text-align: center;
 	margin: 0 auto;
 }
+.our-skills-home{
+	width: 90%;
+    margin: auto;
+    /* border-top: 2px solid #DCDCDC; */
+    min-height: 580px;
+    padding-top: 40px;
+}
+.details-home{
+	width: 33%;
+    float: left;
+}
+#img-detail-home{
+	border-style: none;
+    vertical-align: middle;
+}
+.event-img{
+  cursor: pointer;
+}
 /* Our projects page*/
 .container-projects{
  width: 90%;
@@ -112,6 +136,11 @@ body{
  height: 100%;
 
 }
+.thumbnail-project-home{
+width:100%;
+min-height: 600px;
+}
+
 /*Tech page*/
 .main-tech{
 	width: 100%;
@@ -131,3 +160,91 @@ body{
     padding-right: 20px;
     color: #373737;
  }
+ /*Menu page*/
+ .menu-container {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.menu-overlay {
+    width: 58%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    float: left;
+}
+
+.side-menu {
+    width: 42%;
+    height: 100%;
+    background-color: black;
+    float: right;
+}
+
+.menu-header {
+  padding: 0px 0px 0px 20px;
+}
+
+.menu {
+  padding-left: 50px;
+  padding-top: 20px;
+
+}
+
+.menu-social {
+  padding-left: 50px;
+}
+
+.menu-item {
+  font-size: 20px;
+  color: white;
+  line-height: 2;
+  padding-left: 25px;
+  width: 200px;
+  height: 40px;
+
+}
+.menu-item a {
+    color:white;
+    text-decoration: none;
+
+}
+
+.active {
+    color: white;
+    text-decoration: none;
+    background-color: #565353;
+
+}
+
+.menu-item a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #565353;
+     width: 200px;
+   height: 40px;
+
+}
+
+.grayed {
+  color: gray;
+}
+.nav-right{
+    width: 25%;
+    float: right;
+    display: inline;
+}
+.fa{
+    color: #FFF;
+    font-size: 40px;
+    margin-top: 65px;
+    cursor: pointer;
+ }
+#menu-title{
+	color: white;
+  font-size: 17px;
+  padding-left: 15px;
+  vertical-align: super;
+  cursor: pointer;
+}

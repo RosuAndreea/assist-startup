@@ -6,7 +6,25 @@
 	width:auto;
 	height: auto;
 	font-weight:700;
+	cursor: pointer;
 }
+.btn-read-more a{
+	text-decoration: none;
+	color:#FFF7F3;
+}
+.btn-tech a{
+	text-decoration: none;
+	color: #767676;
+}
+.btn-fb a{
+	text-decoration: none;
+	color: #EBECF3;
+}
+.btn-our-project a{
+	text-decoration: none;
+	color:#FFF;
+}
+
 
 .btn-contact{
 	color:#363A9B;
@@ -53,7 +71,7 @@
 }
 .btn-work-together{
 	border-radius: 20px;
-	background: rgba(9, 158, 218, 0.11);
+	background: transparent;
 	color:#FFF;
 	padding: 11px 17px;
 	border:1px solid #FFF;
