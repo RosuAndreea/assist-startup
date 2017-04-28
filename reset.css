@@ -78,7 +78,7 @@ footer{
     padding-left: 45px;
 }
 .img-hack-left{
-	width: 52.5%;
+	width: 52.9%;
     float: right;
 }
 
@@ -95,7 +95,6 @@ footer{
 .home-container{
     width: 100%;
     min-height: 1000px;
-    position: relative;
 }
 .home-research{
     width: 100%;
@@ -168,6 +167,11 @@ footer{
     float: right;
     margin-right: 10px;
     transform: skew(-7deg) rotate(-7deg);
+}
+
+.home-img-mng:after{
+    position: absolute;
+    z-index:-1;
 }
 .img-hor1{
     width: 100%;
@@ -245,6 +249,7 @@ min-height: 600px;
     top: 0px;
     height: 100%;
     width: 100%;
+    z-index: 1;
 }
 
 .menu-overlay {
@@ -282,31 +287,34 @@ min-height: 600px;
   padding-left: 25px;
   width: 200px;
   height: 40px;
+  cursor: pointer;
 
 }
 .menu-item a {
     color:white;
     text-decoration: none;
+    width: 200px;
+    height: 40px;
 
 }
 
 .active {
     color: white;
     text-decoration: none;
-    background-color: #565353;
+    background-color: #960d20;
 
 }
 
-.menu-item a:hover {
+.menu-item:hover {
     color: white;
     text-decoration: none;
     background-color: #565353;
-     width: 200px;
-   height: 40px;
+    width: 200px;
+    height: 40px;
 
 }
 
-.grayed {
+.grayed a{
   color: gray;
 }
 .nav-right{
